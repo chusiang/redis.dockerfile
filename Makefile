@@ -1,4 +1,4 @@
-DOCKER_REPO = chusiang/redis
+DOCKER_REPO = chusiang/redis.dockerfile
 
 .PHONY: all build run run_conf logs clean stop rm prune
 
