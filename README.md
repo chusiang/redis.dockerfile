@@ -1,14 +1,16 @@
 # Redis Docker image
 
+[![Docker Hub](https://img.shields.io/badge/docker-redis.dockerfile-blue.svg)](https://hub.docker.com/r/chusiang/redis.dockerfile/) [![microbadger](https://images.microbadger.com/badges/image/chusiang/redis.dockerfile.svg)](https://microbadger.com/images/chusiang/redis.dockerfile "Get your own image badge on microbadger.com")
+
 Redis is an open source key-value store that functions as a data structure server. [» more](https://hub.docker.com/r/library/redis/)
 
 
 ## Configure
 
-1. Modify the `redis.conf` (it's come from [here](https://raw.githubusercontent.com/antirez/redis/3.0/redis.conf)).
+1. Modify the `redis.conf` (I get it from [here](https://raw.githubusercontent.com/antirez/redis/3.0/redis.conf)).
     
     * `requirepass`: AUTH password, not setting yet.
-    * `logfile`: log path, I modify to "/data/redis-server.log".
+    * `logfile`: log path, I modify to `/data/redis-server.log`.
 
 ## Run
 
